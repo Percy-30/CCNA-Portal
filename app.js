@@ -135,19 +135,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         downloadBox.querySelector('.pdf-btn').onclick = downloadCurrentPDF;
         downloadBox.querySelector('.ppt-btn').onclick = async () => {
-            const fileName = `modulo_${moduleData.id}.pptx`;
-            const fileUrl = `downloads/${fileName}`;
-            
-            try {
-                const response = await fetch(fileUrl, { method: 'HEAD' });
-                if (response.ok) {
-                    window.location.href = fileUrl;
-                } else {
-                    alert(`¡Atención! Todavía no has guardado el archivo "${fileName}" en la carpeta /downloads de tu proyecto.`);
-                }
-            } catch (e) {
-                alert("Error al intentar acceder a la carpeta de descargas.");
-            }
+            // Activar modo presentación solo para la impresión
+            document.body.classList.add('presentation-mode');
+            await downloadCurrentPDF();
+            document.body.classList.remove('presentation-mode');
         };
 
         initScrollSpy();

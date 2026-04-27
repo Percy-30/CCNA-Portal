@@ -222,6 +222,31 @@ body {
         print-color-adjust: exact !important;
         color: black !important;
     }
+
+    /* MODO DIAPOSITIVAS (PPT) */
+    body.presentation-mode {
+        font-size: 1.5rem !important;
+    }
+
+    body.presentation-mode .entry-content h2,
+    body.presentation-mode .entry-content h3 {
+        page-break-before: always !important;
+        padding-top: 2rem !important;
+        color: var(--cisco-green) !important;
+        border-bottom: 2px solid var(--cisco-green) !important;
+        font-size: 2.5rem !important;
+    }
+
+    body.presentation-mode .entry-content p {
+        font-size: 1.8rem !important;
+        line-height: 1.6 !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    @page {
+        size: landscape;
+        margin: 1cm;
+    }
 }
 
 /* Accordion Styles */
