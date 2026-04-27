@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCNA 1 v7.0 - Portal de Estudio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header" onclick="location.reload()" style="cursor:pointer">
+                <div class="logo">
+                    <div class="circle-icon">≡</div>
+                    <span>NetAcad Clone</span>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <!-- Accordion injected here -->
+            </nav>
+            <div class="sidebar-footer">
+                <div id="google_translate_element"></div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="title-area">
+                    <span style="font-weight: 600; color: var(--text-muted);">CCNA 1 v7.0: Introducción a las redes</span>
+                </div>
+            </header>
+
+            <div id="content-viewer" class="content-viewer">
+                <!-- Content or Welcome Grid injected here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="app.js"></script>
+</body>
+</html>

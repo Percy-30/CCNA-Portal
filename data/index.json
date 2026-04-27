@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Networking Today",
+    "url": "ccna-1-v7-0-curriculum-module-1-networking-today.html"
+  },
+  {
+    "id": 2,
+    "name": "Basic Switch and End Device Configuration",
+    "url": "ccna-1-v7-0-curriculum-module-2-basic-switch-and-end-device-configuration.html"
+  },
+  {
+    "id": 3,
+    "name": "Protocols and Models",
+    "url": "ccna-1-v7-0-curriculum-module-3-protocols-and-models.html"
+  },
+  {
+    "id": 4,
+    "name": "Physical Layer",
+    "url": "ccna-1-v7-0-curriculum-module-4-physical-layer.html"
+  },
+  {
+    "id": 5,
+    "name": "Number Systems",
+    "url": "ccna-1-v7-0-curriculum-module-5-number-systems.html"
+  },
+  {
+    "id": 6,
+    "name": "Data Link Layer",
+    "url": "ccna-1-v7-0-curriculum-module-6-data-link-layer.html"
+  },
+  {
+    "id": 7,
+    "name": "Ethernet Switching",
+    "url": "ccna-1-v7-0-curriculum-module-7-ethernet-switching.html"
+  },
+  {
+    "id": 8,
+    "name": "Network Layer",
+    "url": "ccna-1-v7-0-curriculum-module-8-network-layer.html"
+  },
+  {
+    "id": 9,
+    "name": "Address Resolution",
+    "url": "ccna-1-v7-0-curriculum-module-9-address-resolution.html"
+  },
+  {
+    "id": 10,
+    "name": "Basic Router Configuration",
+    "url": "ccna-1-v7-0-curriculum-module-10-basic-router-configuration.html"
+  },
+  {
+    "id": 11,
+    "name": "IPv4 Addressing",
+    "url": "ccna-1-v7-0-curriculum-module-11-ipv4-addressing.html"
+  },
+  {
+    "id": 12,
+    "name": "IPv6 Addressing",
+    "url": "ccna-1-v7-0-curriculum-module-12-ipv6-addressing.html"
+  },
+  {
+    "id": 13,
+    "name": "ICMP",
+    "url": "ccna-1-v7-0-curriculum-module-13-icmp.html"
+  },
+  {
+    "id": 14,
+    "name": "Transport Layer",
+    "url": "ccna-1-v7-0-curriculum-module-14-transport-layer.html"
+  },
+  {
+    "id": 15,
+    "name": "Application Layer",
+    "url": "ccna-1-v7-0-curriculum-module-15-application-layer.html"
+  },
+  {
+    "id": 16,
+    "name": "Network Security Fundamentals",
+    "url": "ccna-1-v7-0-curriculum-module-16-network-security-fundamentals.html"
+  },
+  {
+    "id": 17,
+    "name": "Build a Small Network",
+    "url": "ccna-1-v7-0-curriculum-module-17-build-a-small-network.html"
+  }
+]

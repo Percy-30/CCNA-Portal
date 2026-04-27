@@ -1,0 +1,8 @@
+# Vercel and Git ignore
+.DS_Store
+node_modules/
+.vercel
+*.log
+
+# No subas archivos muy pesados si no quieres
+# downloads/
